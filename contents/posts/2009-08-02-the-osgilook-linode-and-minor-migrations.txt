@@ -1,0 +1,19 @@
+title: The OSGiLook, Linode and minor migrations
+author: Filippo Diotalevi
+date: 2009/08/02
+
+
+
+<p>Six months after <a href="http://www.osgilook.com/2009/02/04/whats-going-on-here/">the first post</a>, I felt it was about time to give the <a href="http://osgilook.com">OSGi Look</a> a better shape. The blog, started just as a collection of links to OSGi-related news and posts, is starting to have a small but growing number of followers, especially since I started to post some original contents.
+</p>
+
+<p>What better excuse to get a shiny new virtual private server?</p>
+
+
+<p>After the good experience with <a href="http://www.slicehost.com">Slicehost</a> I was very keen to get another "slice" with them, but their signup procedure refused to create me an account. In fact I couldn't log in into Slicehost with my previous account anymore, that was blocked when I canceled my "slice" subscription a few months ago; and I wasn't able to create a new one, since the system insisted that I couldn't create a new account with my email, as it was already associated with another account.</p>
+
+<p>Being too lazy to write an email to the support, I just decided to give a try to <a href="http://www.linode.com">Linode</a>, which happens to be 10$ cheaper.</p>
+
+<p>So far I'm quite happy with linode. The latency is probably a bit higher than slicehost, but overall very acceptable. And it's nice to have again a vps</p>!
+
+<p>To cut the long story short, the <a href="http://www.osgilook.com">OSGi Look</a> is, since yesterday, happily running in my Ubuntu virtual server. I gave it a new design, and I have a few ideas to enhance it. In the next few weeks I hope to migrate there also this website and <a href="http://knokode.com">my company one</a>, that are currently hosted by <a href="http://www.servage.net">Servage</a>.</p>

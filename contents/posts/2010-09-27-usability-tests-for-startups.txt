@@ -1,0 +1,52 @@
+title: Usability tests for startups
+author: Filippo Diotalevi
+date: 2010/09/27
+
+
+
+<p>As <a href="http://www.alistapart.com/authors/c/danachisnell">Dana Chisnell</a> has written is her good article <a href="http://www.alistapart.com/articles/usability-testing-demystified/">Usability Tests Demystified</a>:</p>
+
+<blockquote>
+There seems to be this idea going around that usability testing is bad, or that the cool kids dont do it. That its old skool. That designers dont need to do it.
+</blockquote>
+
+<p>Now I don't know if that's really a common idea, but it's certainly true that usability tests are often overlooked in startups. And the most common reason is that many startups don't have usability experts in their team, or the budget to hire one. That's certainly the case for many bootstrapped company like <a href="http://www.mindquilt.com">us</a>.</p>
+
+<p>So how to improve your application usability?</p>
+
+<p>Let's start with four simple suggestions.</p>
+
+<strong>1. Ask non-technical people to use your application</strong>
+
+<p>That's such a trivial suggestion that I wasn't actually sure whether to include it or not. But it is often overlooked.</p>
+
+<p>There are some common usability mistakes that a non-technical user will spot immediately like</p>
+<ul>
+	<li>Does the user understand immediately how to use the application when he signs up? Does he need a tutorial first?</li>
+	<li>Are all the terms easy to understand? We tend to over-use technical jargon which "normal people" simply don't know.</li>
+	<li>Is the Help page accessible? Does it cover all the common questions?</li>
+	<li>Does the user immediately understand how to access the application functionality? is there any particular feature/information he cannot really "see"?
+</ul>
+
+<strong>2. Create click heatmap of your application</strong>
+
+<p>Use a framework like <a href="http://www.labsmedia.com/clickheat/index.html">Clickheat</a> to analyse user clicks in the application. What are the most clicked features of your application?
+Is there any important feature that is virtually ignored by users? That's a common mistake. A lot of times we put important links/information in places that are actually "invisible" to the casual users, so nobody will use it!</p>
+
+<strong>3. Watch user navigation</strong>
+
+<p>I recently discovered a great service called <a href="http://userfly.com/">Userfly</a> that record user navigation in your application. Check it out because it's really impressive.</p>
+
+<blockquote>
+userfly.com provides instantaneous web user studies by recording user visits and letting you play them back to see every mouse movement, click, and form interaction
+</blockquote>
+
+<p>You can use Userfly for free for a limited number of user recording, and it provides valuable information.</p>
+
+<strong>4. Use Mechanical Turk or Loop11.com to have real people feedback</strong>
+
+<p>If you want to collect a significant number of usage feedback, set up a task on <a href="https://www.mturk.com/mturk/welcome">Amazon Mechanical Turk</a> or <a href="http://loop11.com">Loop11.com</a>. In both cases, for a minimal investment (the time to plan the tests, plus a few hundreds dollars) you will be able to collect a thousand of feedbacks.</p>
+
+<hr/>
+
+<p>What's your experience in usability tests? Do you have any tricks to have quality usability test on budget?</p>

@@ -1,0 +1,15 @@
+title: The Lean Canvas
+author: Filippo Diotalevi
+date: 2010/10/24
+
+
+
+<p>Last Friday I had the opportunity to attend an <a href="http://www.ashmaurya.com/">Ash Maurya</a>'s workshop on Lean Startup, and finally had some time to spend reviewing his idea of the Lean Canvas (have a look at his <a href="http://www.ashmaurya.com/2010/09/lean-startup-is-a-rigorous-process/">original post on it</a> for more details).</p>
+<p>What I find interesting of his approach, and of <a href="http://steveblank.com/">Steve Blank lean startup method</a> in general, is their systematic work to demystify the work and figure of the entrepreneur. We have so many books trying to describe famous (and less famous) entrepreneurs as mythological super-heros, but as Eric Ries and Paul Graham have noted, we don't know the real story behind successful startups, because <a href="http://www.startuplessonslearned.com/2010/10/stop-lying-on-stage.html">nobody tells it on stage</a>.</p>
+<p>The Lean Canvas in particular can be seen as a tool to describe an initial startup idea (in term of the problem it is going to solve), and refine it iteratively using the scientific method (describe hypothesis -&gt; experiment -&gt; measure -&gt; prove the hypothesis true or false). That's how the canvas look like</p><!--more--><p><img title="leancanvas.png" src="http://diotalevi.com/http://diotalevi.com/wp-content/uploads/2010/10/leancanvas1.png" border="0" alt="leancanvas.png" width="600" height="417" /></p>
+<p>The Lean Canvas, in itself, is just a tool to describe the assumptions you make before starting your business; as such, it is useful, but nothing revolutionary, in my opinion. However it become much more interesting (and challenging) when you throw in some of the assumptions of lean startups:</p>
+<ul>
+<li>you use the scientific method to prove/disprove every assumption written in the canvas; that usually involves interviewing a big number of potential customers, advisors, potential channels to find out whether the assumptions are correct or not</li>
+<li>you progressively iterate to produce better canvases (that is, canvases that describe the best product/solution fit)</li>
+</ul>
+<p>Interesting enough, there's very little code during the development of the canvas (possibly only some HTML to layout a demo of the solution); it's all about finding the right problem and the right solution, and doing that in a systematic and repeatable way.</p>

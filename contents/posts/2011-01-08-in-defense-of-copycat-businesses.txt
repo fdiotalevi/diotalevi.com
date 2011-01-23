@@ -1,0 +1,18 @@
+title: In Defense of Copycat Businesses
+author: Filippo Diotalevi
+date: 2011/01/08
+
+
+
+<p>The <a href="http://it.startupscene.org/">Italian Startup Scene</a> group hosted, a few days ago, an interesting thread on copycats (clones of famous websites/services, think of one of the many <a href="http://www.groupon.com/">Groupon</a> clones as an example). Copycat businesses are quite common in Europe, and seem to be particularly well considered by european VCs because they adopt well-known business models; as a matter of fact, the thread on ISS was started by an italian VC analyst.</p>
+<p>This thread got me thinking that, when <a href="http://diotalevi.com/2010/11/04/startup-ideas-demystified/">analysing several methods to come up with business ideas</a>, I never considered blatantly copying another website. Entrepreneurs are creative people: what's creative in copying? The whole idea seems like a taboo for many. Good reason to think more about it!</p>
+<p>There might actually be nothing creative in copying, but startups and businesses are all about execution. And executing on a successful business model is (at least a bit) safer than the usual wandering in the dark.</p><!--more-->
+<p>Doing some researches, I found dozens of successful examples; Germany leads the way with <a href="http://www.myvideo.de/">MyVideo</a> (Youtube clone), <a href="http://alando.de/">Alando</a> (eBay, and bought by eBay), <a href="http://www.citydeal.de/">CityDeal</a> (bought by Groupon), <a href="http://www.studivz.net/">StudyViz</a> (Facebook clone), <a href="http://www.xing.de">Xing</a> (Linkedin); France have been <a href="http://eu.techcrunch.com/2011/01/06/french-groupon-clone-bon-prive-scores-e1-5-million-to-conquer-more-french-territory/">in the news recently with Bon-Prive'</a> (Groupon clone, again), even Romania has its own Groupon (<a href="http://www.zumzi.ro">Zumzi</a>) clone. And the list could go on forever.</p>
+<p>So should we stop doing... whatever we are doing... and go and start a copycat business? <strong>Maybe.</strong></p>
+<p>Certainly you won't go that far creating a Facebook clone: Facebook is already localised in more than 100 languages. And if you are thinking about Groupon, there are already so many clones that it might not be worth the effort.</p>
+<p>But there are at least two conditions that make a successful website or business worth copying:</p>
+<ul>
+<li><em>it relies on knowledge that is specific to a certain country </em>(f.i.: specific laws, taxes, deals with local businesses). That's why many Groupon clones have appeared: you need to be able to go on the field and sign agreements with the various shops. There are plenty of opportunity still open here: there's no alternative to <a href="http://mint.com">Mint</a> in many countries, just to mention one</li>
+<li><em>it is not localised, and targets a customer sector that (abroad) doesn't speak english; </em>that's the cause for many <a href="http://digg.com">Digg</a> and Youtube clones</li>
+</ul>
+<p>So, when you think to the next big thing for you, it might be worth thinking about copycat businesses. You know the business model, you know exactly how to build the product... why not giving it a chance?</p>

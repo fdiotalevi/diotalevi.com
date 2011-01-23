@@ -1,0 +1,8 @@
+<ul>
+	<% @posts.each do |post| %>
+		<li>
+			<a href="<%= post.url %>"><%= post.title %></a>, published on <%= post.date.strftime('%b %d, %Y') %>
+		</li>
+	
+	<%end%>
+</ul>

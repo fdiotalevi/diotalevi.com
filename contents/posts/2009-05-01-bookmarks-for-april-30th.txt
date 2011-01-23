@@ -1,0 +1,10 @@
+title: Bookmarks for April 30th 
+author: Filippo Diotalevi
+date: 2009/05/01
+
+
+
+<p>These are my links for April 30th:</p>
+<ul>
+	<li><a href="http://www.jroller.com/habuma/entry/pax_construct_from_zero_to">Pax Construct from zero to OSGi</a> - Using Pax Construct to quickstart your OSGi application</li>
+</ul>

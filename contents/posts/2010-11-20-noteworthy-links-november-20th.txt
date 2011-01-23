@@ -1,0 +1,13 @@
+title: Noteworthy links, November 20th
+author: Filippo Diotalevi
+date: 2010/11/20
+
+
+
+<p>Not many links to share this weekend, as I have been busy travelling for the past three weeks</p>
+<ul>
+<li><a href="http://www.avc.com/a_vc/2010/11/employee-equity-vesting.html">Employee Equity: Vesting</a> the latest episode of Fred Wilson's MBA Mondays</li>
+<li><a href="http://t.co/9lm3Ph7">The Europas European Startup Awards 2010  The Winners and Finalists</a></li>
+<li><a href="http://steveblank.com/2010/11/08/hubris-versus-humility-the-15-billion-difference/">Hubris Versus Humility: The $15 billion Difference</a> side-by-side story of RIM and TiVO</li>
+<li><a href="http://diotalevi.com/2010/11/15/retention-vs-conversion/">Retention vs Conversion</a> what's the right focus for early stage startups?</li>
+</ul>

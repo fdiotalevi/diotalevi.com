@@ -1,0 +1,39 @@
+title: Austin Startup Weekend  my review
+author: Filippo Diotalevi
+date: 2010/09/15
+
+
+
+<p>Last weekend I attended my first <a href="http://startupweekend.org/">Startup Weekend</a> here in Austin. I admit I was a bit skeptical before starting it, having read some critic reviews in the past (sorry, I cannot find any link at the moment), and knowing how difficult it can be to get together a group, agree on an idea *and* work on it in 54 hours. Add to that a busy week (<a href="http://mindquilt.com/">Mindquilt</a> work, and moving to the new house), and you can understand why I had a few "why exactly am I doing also that?" moments before the Friday night event kickoff.</p>
+
+<p>It turned out it was a great idea.</p>
+
+<p>So a Startup Weekend, for those of you who have never attended, is basically divided in three phases</p>
+<ul>
+	<li><strong>initial pitches and ideas selection.</strong> On Friday night anybody can pitch his idea (60-90 second pitch to the audience).Ideas are then voted and the best x ideas (10 in our case) are given the green light. There is anyway the possibility to work of one of the other ideas, if the leader can put together a team to work on that</li>
+	<li><strong>execution</strong>. Every group defines a minimum viable product, and implements it during the weekend</li>
+	<li><strong>pitch to investors</strong>. At the end of the weekend all the projects are presented to VCs and business angels (usual 10 minute pitches)</li>
+</ul>
+
+<p>My experience last weekend is that the first and third phase have been absolutely great. We had more than 30 proposals on Friday night (I pitched my idea for a GMail plugin to find partners to exchange emails in foreign languages), a good mixture of clever, funny and crazy ideas. In the same way, also the pitches to investors were very interesting for the feedback received from them.</p>
+
+<p>The execution part is more controversial. Some ideas can be implemented easily in a 2 days, in some other cases you can't even start to implement it. Some projects were actually based on already existent products or prototypes, so there wasn't much technical work to do, but more marketing/PRs.</p>
+
+<p>Anyway, looking it from a learning perspective, it was just a great experience that I'd recommend to everybody.</p>
+
+<p>Some suggestions if you are going to attend it:</p>
+<ul>
+	<li>pitch your idea on Friday night. Any idea: the craziest, the easiest, the sexiest. That's a great learning experience, and it will help to start networking with people. Don't be shy!</li>
+	<li>the chances you will walk away with a million dollar startup on Monday are negligible. Fun and learning are the biggest takeaways, keep that always in mind</li>
+	<li>go for simple ideas if you want to hack a working prototype in a day or two</li>
+	<li>consider non-IT ideas! Look for instance to the great <a href="http://www.youtube.com/watch?v=iydJb7GoqFY">keg jersey presentation</a>. There are many non-strictly-IT business that can be started during a weekend, like organising a conference or event, marketing gadgets, ...</li>
+</ul>
+
+<p>Finally, some links to the youtube videos of the presentations</p>
+<ul>
+	<li><a href="http://www.youtube.com/watch?v=ioYXRDlXsUM">Kiimby</a></li>
+	<li><a href="http://www.youtube.com/watch?v=TjetNOX7wKA">RestaurNotes</a></li>
+	<li><a href="http://www.youtube.com/watch?v=jDCaLC-qR44">Instavents</a> (winner)</li>
+	<li><a href="http://www.youtube.com/watch?v=5m3mcKGAQ3s">CaringLife</a> (my team)</li>
+	<li><a href="http://www.youtube.com/watch?v=MV5uky65X6A">ProdWar</a></li>
+</ul>

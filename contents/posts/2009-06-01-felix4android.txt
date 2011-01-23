@@ -1,0 +1,9 @@
+title: felix4android
+author: Filippo Diotalevi
+date: 2009/06/01
+
+
+
+<p>In my <a href="http://knokode.com">business blog</a> I've just posted a brief presentation of <a href="http://code.google.com/p/felix4android/">felix4android</a>, an Apache Felix repackaging that runs on the Android emulator (and, hopefully, on an Android phone!)</p>
+
+<p><a href="http://code.google.com/p/felix4android/">Feel free to check it out</a> and contribute!</p>

@@ -1,0 +1,16 @@
+title: Noteworthy links, November 7th 2010
+author: Filippo Diotalevi
+date: 2010/11/07
+
+
+
+<ul>
+<li><a href="http://cdixon.posterous.com/starting-your-first-company">Starting your first company</a> 11 no-nonsense suggestions to start your first company by Chris Dixon</li>
+<li><a href="http://s4.io">Yahoo releases S4</a>, a general-purpose, distributed, scalable, partially fault-tolerant, pluggable platform that allows programmers to easily develop applications for processing continuous unbounded streams of data</li>
+<li><a href="http://diotalevi.com/2010/11/04/startup-ideas-demystified/">Startup ideas, demystified</a> how to find ideas for your startup in a repeatable way</li>
+<li><a href="http://www.readwriteweb.com/start/2010/11/20-recommended-quora-threads-f.php">20 recommended Quora thread for startups</a></li>
+<li><a href="http://techcrunch.com/2010/10/31/are-you-a-pirate/">Are you a pirate?</a> Michael Arrington on entrepreneurship (and on his future?)</li>
+</ul>
+<p></p>
+<ul>
+</ul>
