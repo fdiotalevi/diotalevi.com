@@ -36,16 +36,6 @@ get '/pages/:name' do
 end
 
 
-def to_url(str)
-  
-  return str.gsub(".txt", "/")
-end
-
-def to_title(str)
-  str
-end
-
-
 class PostData
   attr_accessor :valid, :url, :title, :file_name, :date
   
