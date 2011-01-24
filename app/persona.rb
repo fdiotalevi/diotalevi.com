@@ -13,16 +13,15 @@ get '/' do
   @posts = Dir.entries('./contents/posts').sort.reverse.reject do |it|
     not it.end_with? '.txt'
   end
-    
+      
   @posts = @posts.map do |it|
-    pd = PostData.new it
-    pd if pd.valid
+    Post.new it
   end
   erb :index
 end
 
 get '/:y/:m/:d/:name/' do
-  @page = Post.new params[:y], params[:m], params[:d], params[:name]
+  @page = Post.from_url params[:y], params[:m], params[:d], params[:name]
   erb :post
 end
 
@@ -33,21 +32,5 @@ end
 get '/pages/:name' do
   @page = Page.new params[:name]
   erb :page
-end
-
-
-class PostData
-  attr_accessor :valid, :url, :title, :file_name, :date
-  
-  def initialize(str)
-    @file_name = str
-    @valid = /(\d{4}-\d{2}-\d{2})-([^\/]*)\.txt$/.match str    
-    
-    if @valid
-      @url = @valid[1].gsub(/[-]/, "/") + "/" + @valid[2] + "/"
-      @title = @valid[2].gsub(/[-]/, " ").capitalize
-      @date = Date.strptime(@valid[1], '%Y-%m-%d')
-    end    
-  end
 end
 

@@ -1,4 +1,4 @@
-title: Mindquilt Updates
+title: About page
 author: Filippo Diotalevi
 date: 2010/07/24
 
