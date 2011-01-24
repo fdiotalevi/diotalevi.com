@@ -7,7 +7,7 @@ date: 2009/07/04
 <table>
 <tr>
 <td>
-<img src="http://diotalevi.com/http://diotalevi.com/wp-content/uploads/2009/07/bearch.gif" width="90" height="120"/>
+<img src="http://dl.dropbox.com/u/1964762/diotalevi.com/images/bearch.gif" width="90" height="120"/>
 </td>
 <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </td>

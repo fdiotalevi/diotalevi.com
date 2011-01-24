@@ -6,7 +6,7 @@ date: 2010/07/24
 
 <p>So, many people are asking me for updates, or to have a closer look at <a href="http://www.mindquilt.com">Mindquilt</a>.</p>
 
-<img class="alignnone size-medium wp-image-110" title="betamindquilt" src="http://diotalevi.com/http://diotalevi.com/wp-content/uploads/2010/07/Screen-shot-2010-07-24-at-19.29.27-300x214.png" alt="" width="300" height="214" />
+<img class="alignnone size-medium wp-image-110" title="betamindquilt" src="http://dl.dropbox.com/u/1964762/diotalevi.com/images/mindquilt-screen.png" alt="" width="300" height="214" />
 
 <p>For them, the good news is that our <a href="http://beta.mindquilt.com">beta is live</a> (since more than a month now, actually); the (less good) news is that we are sending out invitations at a slower pace we would like to. It turned out that there are so many activities in running the company (paperwork, marketing, sales, product design, user interface, customer support and plain-old development) that we are constantly overwhelmed by the things to do. We have a plan to improve that anyway! more on that later</p>
 

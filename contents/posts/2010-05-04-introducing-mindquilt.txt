@@ -4,8 +4,6 @@ date: 2010/05/04
 
 
 
-<img class="alignnone" title="I voted for Mindquilt" src="http://74.207.231.61/facebook/character_badge.png" alt="" width="269" height="215" />
-
 <p>So now that "little guy" (we couldn't find a better name for him) is out, with his shiny new badge, it is probably the right moment to introduce <a href="http://www.mindquilt.com">Mindquilt</a>.</p>
 <p>Mindquilt is the attempt of a few of us to propose an "enterprise" system to make the knowledge flow in an organization agile. The tools we usually use for that can be grouped in two categories:</p>
 <ul>
