@@ -56,6 +56,14 @@ get '/pages/:name' do
   erb :page
 end
 
+error do
+  erb :not_found
+end
+
+not_found do
+  erb :not_found
+end
+
 
 def load_posts
   posts = Dir.entries('./contents/posts').sort.reverse.reject do |it|
