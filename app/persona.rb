@@ -29,7 +29,7 @@ get '/feed/' do
             xml.title post.title
             xml.link post.url
             xml.description post.content
-            xml.pubDate post.date.rfc822()
+            xml.pubDate post.date.strftime("%a, %d %b %Y %H:%M:%S %z")
             xml.guid post.url
           end
         end
