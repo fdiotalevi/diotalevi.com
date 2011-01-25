@@ -27,10 +27,10 @@ get '/feed/' do
         load_posts.first(10).each do |post|
           xml.item do
             xml.title post.title
-            xml.link ($config['site']['url'])+"/"+post.url
+            xml.link(($config['site']['url'])+"/"+post.url)
             xml.description post.content
             xml.pubDate post.date.strftime("%a, %d %b %Y %H:%M:%S %z")
-            xml.guid ($config['site']['url'])+"/"+post.url
+            xml.guid(($config['site']['url'])+"/"+post.url)
           end
         end
       end
