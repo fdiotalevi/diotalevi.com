@@ -10,7 +10,7 @@ require File.join(File.dirname(__FILE__), '.', 'page')
 require File.join(File.dirname(__FILE__), '.', 'post')
 
 
-get '/' do 
+get '/' do   
   @posts = load_posts
   erb :index
 end
@@ -20,17 +20,17 @@ get '/feed/' do
     xml.instruct! :xml, :version => '1.0'
     xml.rss :version => "2.0" do
       xml.channel do
-        xml.title "Filippo Diotalevi"
-        xml.description "Startups, technology, news"
-        xml.link "http://diotalevi.com/"
+        xml.title ($config['site']['title'])
+        xml.description ($config['site']['description'])
+        xml.link ($config['site']['url'])
 
         load_posts.first(10).each do |post|
           xml.item do
             xml.title post.title
-            xml.link "http://diotalevi.com/"+post.url
+            xml.link ($config['site']['url'])+"/"+post.url
             xml.description post.content
             xml.pubDate post.date.strftime("%a, %d %b %Y %H:%M:%S %z")
-            xml.guid "http://diotalevi.com/"+post.url
+            xml.guid ($config['site']['url'])+"/"+post.url
           end
         end
       end
