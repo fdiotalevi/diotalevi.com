@@ -1,8 +1,5 @@
 require 'rubygems'
 require 'erb'
-require 'bundler'
-Bundler.setup
-
 require 'sinatra'
 require 'builder'
 require File.join(File.dirname(__FILE__), './ext', 'file')
