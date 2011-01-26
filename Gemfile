@@ -1,3 +1,4 @@
+gem 'persona'
 gem 'sinatra'
 gem 'builder'
 
