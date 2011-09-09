@@ -1,0 +1,53 @@
+title: HttpCheck in node.js 
+author: Filippo Diotalevi
+date: 2011/09/09
+
+<p>
+One of the most useful tools when you develop mobile portals is a simple web page to check the headers your browser is sending to the server. Which User-Agent? Accept-Language? Accept-Encoding? Accept-Charset?
+</p>
+<p>
+A good opportunity to write a tiny node.js application (with just a bit of <a href='http://documentcloud.github.com/underscore/'>Underscore</a>) magic.
+</p>
+<!--more-->
+<pre class="prettyprint language-js code">
+var http = require('http'), 
+    _ = require('./underscore'),
+    port = process.env.PORT || 3000;
+
+var FullResponse = function(req) {
+
+  var blanks = "                                   ";
+  var fields = {"url": req.url, "method": req.method, "httpVersion": req.httpVersion, 
+                "headers": req.headers, "data": ""};  
+    
+  var format = function(key, value, indent) {    
+    if (_.isString(value))
+      var valuePart = value+"\n";
+    else
+      var valuePart = "\n" + _.reduce(_.keys(value), function(sum, it) {  
+                      return sum + format(it, value[it], indent+1);  
+                    }, "");
+          
+    return blanks.substring(0, indent * 2) + key+": " + valuePart;
+  }        
+  
+  this.printOut = function() {        
+    return format("response", fields, 0);
+  }  
+}
+
+http.createServer(function (req, res) {
+  res.writeHead(200, {'Content-Type': 'text/plain'});
+  var response = new FullResponse(req);  
+  req.on("data", function(it) {
+    fields["data"] += it.toString("utf8");
+  });  
+  req.on("end", function() {
+    res.end(response.printOut());  
+  });  
+}).listen(port);
+console.log('Server running at port '+port);
+</pre>
+<p>
+Full source code on <a href='https://github.com/fdiotalevi/httpcheck'>Github</a>, the application is running at <a href='http://httpcheck.herokuapp.com'>http://httpcheck.herokuapp.com</a>.
+</p>

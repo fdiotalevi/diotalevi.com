@@ -106,3 +106,10 @@ body > footer {
   font-size: 18px;
   color: #888;
 }
+
+.code {
+  font-size: 12px;  
+  font-family: Courier;  
+  background-color: #eeeeee;
+  word-wrap: normal;
+}
