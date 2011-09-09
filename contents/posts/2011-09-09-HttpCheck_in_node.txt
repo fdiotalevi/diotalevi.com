@@ -6,7 +6,7 @@ date: 2011/09/09
 One of the most useful tools when you develop mobile portals is a simple web page to check the headers your browser is sending to the server. Which User-Agent? Accept-Language? Accept-Encoding? Accept-Charset?
 </p>
 <p>
-A good opportunity to write a tiny node.js application (with just a bit of <a href='http://documentcloud.github.com/underscore/'>Underscore</a>) magic.
+A good opportunity to write a tiny node.js application (with just a bit of <a href='http://documentcloud.github.com/underscore/'>Underscore</a> magic).
 </p>
 <!--more-->
 <pre class="prettyprint language-js code">
