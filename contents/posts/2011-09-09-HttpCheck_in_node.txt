@@ -53,9 +53,6 @@ http.createServer(function (req, res) {
 }).listen(port);
 console.log('Server running at port '+port);
 
-
-
-
 </pre>
 <p>
 Full source code on <a href='https://github.com/fdiotalevi/httpcheck'>Github</a>, the application is running at <a href='http://httpcheck.herokuapp.com'>http://httpcheck.herokuapp.com</a>.
