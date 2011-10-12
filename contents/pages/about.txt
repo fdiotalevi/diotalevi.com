@@ -3,9 +3,6 @@ author: Filippo Diotalevi
 date: 2010/07/24
 
 
-<p>&nbsp;</p>
-<h2>About the author</h2>
-
 <p>
 <table>
 <tr><td>
