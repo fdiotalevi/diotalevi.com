@@ -4,17 +4,16 @@ date: 2010/07/24
 
 
 <p>
-<table>
-<tr><td>
-<img src="http://dl.dropbox.com/u/1964762/diotalevi.com/images/filippo.jpg" width="120" height="100"/>
-</td>
-<td valign="top">
-<a href="/feed/"><img src="http://dl.dropbox.com/u/1964762/diotalevi.com/images/rss.jpeg" border="0" width="40" height="40"/></a>
-&nbsp;<a href="http://www.linkedin.com/in/fdiotalevi"><img src="http://dl.dropbox.com/u/1964762/diotalevi.com/images/linkedin.gif" border="0" width="40" height="40"/></a>
-&nbsp;<a href="http://twitter.com/fdiotalevi"><img src="http://dl.dropbox.com/u/1964762/diotalevi.com/images/twitter.png" border="0" width="40" height="40"/></a>
-&nbsp;<a href="http://trunk.ly/fdiotalevi"><img src="http://dl.dropbox.com/u/1964762/diotalevi.com/images/trunkly.png" border="0" width="40" height="40"/></a>
-</td>
-</tr></table>
+<img src="/images/try_bio.png" width="800" height="600">
 </p>
-
-
+<center>
+<p>
+<a href="http://www.linkedin.com/in/fdiotalevi"><img src="http://dl.dropbox.com/u/1964762/diotalevi.com/images/linkedin.gif" border="0" width="40" height="40"/></a>
+&nbsp;<a href="http://twitter.com/fdiotalevi"><img src="http://dl.dropbox.com/u/1964762/diotalevi.com/images/twitter.png" border="0" width="40" height="40"/></a>
+&nbsp;<a href="https://www.facebook.com/filippo.diotalevi"><img src="/images/fb_icon.png" border="0" width="40" height="40"/></a>
+&nbsp;<a href="http://trunk.ly/fdiotalevi"><img src="http://dl.dropbox.com/u/1964762/diotalevi.com/images/trunkly.png" border="0" width="40" height="40"/></a>
+&nbsp;<a href="http://www.flickr.com/photos/fdiotalevi/"><img src="/images/flickr_icon.jpg" border="0" width="40" height="40"/></a>
+&nbsp;<a href="https://github.com/fdiotalevi"><img src="/images/github_icon.png" border="0" width="40" height="40"/></a>
+</p>
+</center>
+<br><br><br><br><br>
