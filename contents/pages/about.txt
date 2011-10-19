@@ -4,7 +4,7 @@ date: 2010/07/24
 
 
 <p>
-<img src="/images/try_bio.png" width="800" height="600">
+<img src="/images/try_bio.png" width="740" height="550">
 </p>
 <center>
 <p>
