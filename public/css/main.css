@@ -109,6 +109,11 @@ body > footer {
   color: #888;
 }
 
+.polaroid {
+  margin: 20px;
+  display: inline;  
+}
+
 .slider_box {
   width: 350;
   margin: 10px;

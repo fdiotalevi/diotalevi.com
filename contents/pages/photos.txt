@@ -1,0 +1,21 @@
+title: Photos
+author: Filippo Diotalevi
+date: 2010/07/24
+
+<center>
+<p>
+<div class="polaroid">
+<img src="/images/instagrams.png" width="200" height="215"> 
+</div>
+<div class="polaroid">
+<img src="/images/instagrams.png" width="200" height="215"> 
+</div>
+<div class="polaroid">
+<img src="/images/instagrams.png" width="200" height="215"> 
+</div>
+<div class="clear"></div>
+<div class="polaroid">
+<img src="/images/instagrams.png" width="200" height="215"> 
+</div>
+</p>
+</center>
