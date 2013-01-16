@@ -1,11 +1,7 @@
 title: About page
 author: Filippo Diotalevi
-date: 2010/07/24
+date: 2012/01/13
 
-
-<p>
-<img src="/images/try_bio.png" width="740" height="550">
-</p>
 <center>
 <p>
 <a href="http://www.linkedin.com/in/fdiotalevi"><img src="http://dl.dropbox.com/u/1964762/diotalevi.com/images/linkedin.gif" border="0" width="40" height="40"/></a>
@@ -16,4 +12,24 @@ date: 2010/07/24
 &nbsp;<a href="https://github.com/fdiotalevi"><img src="/images/github_icon.png" border="0" width="40" height="40"/></a>
 </p>
 </center>
-<br><br><br><br><br>
+<p>
+(Updated to January 2013)<br><br>
+I was born on 1975 in <a href="http://en.wikipedia.org/wiki/Vicenza">Vicenza</a>, a small town in an area formerly known as the Rich Italian North East; I haven't lived there in the past twelve years, but they tell me things are quite different now.
+</p>
+<p>
+I don't remember much of my childhood there; as I get older, I seem to forget more and more things. I blame my job for that, the need to memorise countless information to stay always up to date with technology. But it's probably just the age.<br/>
+I went to high school at the <a href="http://www.liceolioy.it/">Liceo Scientifico Paolo Lioy</a>, which didn't have a website back then, because the Web, as we know it, hadn't been invented yet. Following that, I got my Computer Engineering Laurea Degree at the <a href="http://www.unipd.it/en/">University of Padua</a>.
+</p>
+<p><a href="http://www.youtube.com/watch?v=sr07uR75Qk0">Even though I'm not Steve Jobs</a>, I sometimes think to the past, and discover that some particular experiences I had ended up to be the seeds of my future life or career. To date, I still haven't found anything like that in my university career.<br/>
+What I can remember is only a huge amount of time spent memorising math, physics, chemistry and many other topics which I haven't used anymore in my life. But at the end I got the piece of paper of which, believe it or not, I ignore the current location. I hope my parents still have it somewhere.
+</p>
+<p>Shortly after getting the degree, I moved to <a href="http://en.wikipedia.org/wiki/Milan">Milano</a> to join <a href="http://www.ibm.com">IBM</a>. Even though I didn't like the city, I still remember that period vividly. I met there lots of people who I still consider friends and learnt so much in the company.
+In that period I also started travelling for business, thing that became a constant in my following years. I remember spending weeks in hotels in <a href="http://en.wikipedia.org/wiki/Bari">Bari</a>, <a href="http://en.wikipedia.org/wiki/Bologna">Bologna</a>, <a href="http://en.wikipedia.org/wiki/Raleigh,_North_Carolina">Raileigh</a>, <a href="http://en.wikipedia.org/wiki/Verona">Verona</a>.</p>
+<p>After quitting my job in IBM, I started working as freelance, first in Italy and then for four years in <a href="http://en.wikipedia.org/wiki/D%C3%BCsseldorf">Düsseldorf, Germany</a>. During my time in Germany I also founded a startup called <a href="http://www.mindquilt.com">Mindquilt</a> and spent some months in <a href="http://en.wikipedia.org/wiki/Austin,_Texas">Austin, Texas</a>, to bootstrap it. I blogged quite a but about it, for instance <a href="/2010/05/04/introducing-mindquilt/">here</a>, <a href="/2010/05/20/marketing-on-a-shoestring-aka-mindquilt-is-going-to-boston/">here</a>, <a href="2010/07/24/mindquilt-updates/">here</a> and <a href="/2010/09/28/on-competition-and-opzi-and-techcrunch/">here</a>. Even if Mindquilt still exists, I'm not involved in its operations anymore, so don't ask me for updates or a discount :)</p>
+<p>Since the beginning of 2011 <a href="http://en.wikipedia.org/wiki/London,_UK">London, UK</a> is my new home. I quit freelancing, at least temporarily, to join <a href="http://www.visualdna.com">VisualDNA</a> and have fun again working in the startup world. London is the city where I wanted to live since I first visited it ten years ago, and it still amazes me, after two years, how many new things I discover every month here.</p>
+<p><b>Other notable things about me</b></p>
+<p>One the most rewarding activities I did back in Milano was to create the <a href="http://www.jugmilano.it">Java User Group Milano</a>; I'm not involved in its management anymore, but it is still, arguably, one of the most successful european user groups with more than 500 members, monthly meetings and a very active mailing list.</p>
+<p>Thanks to my involvement with the Java User Group community I have been invited to the Sun's (Oracle?) <a href="http://java.net/website/java-champions/bios.html#Diotalevi">Java Champions Community</a> and had the opportunity to speak at many italian and European conferences.</p>
+<p>I wrote two books: <a href="http://www.redbooks.ibm.com/abstracts/sg"246933.html">Patterns: Direct Connections for Intra- and Inter-enterprise connections</a> (IBM Press, 2003) and <a href="http://books.google.it/books/about/Java_Enterprise_Edition_5.html?hl=it&id=RmT8cx5ZQyEC">Java Enterprise Edition 5</a> (Hoepli Editore, 2006). Writing has been a passion since high school, and from time to time I'm toying with the idea of writing a third book.</p>
+<p>I have a <a href="http://londondaily.tumblr.com/">London Daily Photo Tumblr</a>...</p>
+<p>... and a <a href="http://www.everythingbigdata.com">Everything About Big Data</a> blog</p>
