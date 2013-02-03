@@ -6,7 +6,7 @@ date: 2013/01/03
 <tr>
 <td width="460">
 <p>
-I don't remember where I got the suggestion to read this book; it must be something related to my quest to find books that talks about the foundations of technology, rather than about the latest and greatest technology. Anyway, somewhere I found a link to this nice little book, and I'm glad I did.</p>
+I don't remember where I got the suggestion to read this book; it must be something related to my quest to find books that talks about the foundations of technology, rather than about the latest and greatest tool. Anyway, somewhere I found a link to this nice little book, and I'm glad I did.</p>
 </td>
 <td>
 <img src="http://www.charlespetzold.com/code/code.jpg" width="140" height="200">
