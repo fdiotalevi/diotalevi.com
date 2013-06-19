@@ -27,6 +27,22 @@
 
 	</script>
 	
+	<!-- VDNA Audience Analytics Tag -->
+  <script>
+      (function(){
+          var b, a;
+          b=document.createElement("script");
+          b.src="//a1.vdna-assets.com/analytics.js";
+          b.async=true;
+          a=document.getElementsByTagName("head")[0];
+          a.insertBefore(b,a.firstChild);
+          this.VDNA=this.VDNA||{};
+          this.VDNA.queue=this.VDNA.queue||[];
+      }());
+
+      VDNA.queue.push({apiKey : "filippo1371113061674", method : "reportPageView"});
+  </script>
+	
 
   </head>
   <body onload="prettyPrint()">
