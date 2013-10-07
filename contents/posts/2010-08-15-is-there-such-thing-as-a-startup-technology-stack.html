@@ -1,0 +1,78 @@
+<article class="hentry">
+
+   <h2 class="entry-title">Is there such thing as a Startup Technology Stack?</h2>
+   
+   <div class="info">Published by <span class="author vcard"><span class="fn">Filippo Diotalevi</span></span>
+      on <span class="published" datetime="2010-08-15 12:00:00">15th August 2010</span> 
+      (last update <span class="updated" datetime="2010-08-15 12:00:00">15th August 2010</span>)
+   </div>
+
+	<a title="Ruby on Rails by nimbu, on Flickr" href="http://www.flickr.com/photos/nimbupani/224494479/"><img src="http://farm1.static.flickr.com/83/224494479_67c3bd2172_m.jpg" alt="Ruby on Rails" width="240" height="180" /></a>
+
+	Photo of <a href="http://www.flickr.com/photos/nimbupani/">Nimbu</a>
+
+	<p>Lately I've been talking and reading a lot about startups and product development, and two independent discussions have caught my attention. First, talking with an analyst working for a VC, he told me they don't "usually invest in Java company", because they feel Ruby, Python, C++ or (even!) .Net are more interesting for seed-stage startups. You can understand I wasn't that happy about his words, since <a href="http://www.mindquilt.com">we</a> are fundamentally a Java company... but anybody is entitled of his own opinion.</p>
+
+	<p>The second interesting discussion started around "<a href="http://www.cleverkoala.com/2010/08/why-your-startup-should-be-using-mongodb/">Why your startup should be using MongoDB</a>", on the merits of NoSQL database used in startups.</p>
+
+	<p>So I went back to our technology choices. Our stack is currently composed by</p>
+	<ul>
+		<li>HTML/JSP + JS (mainly <a href="http://jquery.com">JQuery</a>) for the frontend</li>
+		<li>Java Web Application (our own REST framework + <a href="http://code.google.com/p/google-guice/">Guice</a> + <a href="http://mindquilt.com">Hibernate</a>)</li>
+		<li><a href="http://jetty.codehaus.org/jetty/">Jetty Web Server</a></li>
+		<li><a href="http://lucene.apache.org/solr/">Apache Solr</a></li>
+		<li><a href="http://mysql.com">MySQL</a></li>
+		<li>some minor scripting in Python</li>
+	</ul>
+
+	<p>That's a pretty typical enterprise Java application architecture, derived by our multi-year experience in consulting and contracting for banks, telcos and IT companies.</p>
+
+	<p>Now I don't think I have to prove our stacks works, scales and performs well; there are plenty of enterprises out there running with similar systems, plenty of success stories, and I have seen my share of good and bad projects.The real question is: is it the right stack for a startup? To avoid the usual "it depends" answer, let's talk about the requirements of a startup (<a href="http://en.wikipedia.org/wiki/Pareto_principle">Pareto law</a> apply here)</p>
+	<ol>
+		<li>Release early and often.</li>
+		<li>Keep pumping out features</li>
+		<li><a href="http://www.startuplessonslearned.com/2008/11/what-is-customer-development.html">Do customer development</a> from day 1</li>
+		<li>Refactor the business model as often you refactor the code (ok, a bit less frequently)</li>
+	</ol>
+
+	<p>In other words, it seems like the startup scenario is quite different from the usual enterprise software scenario. At least, that's what I discovered in my experience.</p>
+
+	<p>So how our stack copes with this situations?</p>
+
+	<strong>The good</strong>
+
+	<p>Having a REST framework really is the best choice we did. It draws a clean and definite line between the frontend and the backend, and give us the possibility, if we want, to migrate the backend to a different implementation or technology, one URL at a time.</p>
+
+	<strong>The good-ish</strong>
+
+	<p>I've been developing Java application for the past ten years. I know I'm very productive with it, especially when I keep it simple (<a href="http://en.wikipedia.org/wiki/KISS_principle">KISS</a>) and don't overindulge with frameworks and overdesigned solutions. I know it would take a long time to be equally productive with another language.</p>
+
+	<p>However, I also recognize that sometimes dynamic languages can be, guess what, ...more dynamic. More compact code, faster to write and to maintain when the domain is small. I'm learning more of Python every day, and I'm not blind to its potential when it comes to rapid development.</p>
+
+	<p>I definitely don't see us migrating to it (or to Ruby, for what that matters) anytime soon, but I can foresee we might want to write some parts of the application with it soon. The REST approach will make this transition easy.</p>
+
+	<strong>The ugly ugly ugly</strong>
+
+	<p>As Paul Graham suggests, we try to <a href="http://www.paulgraham.com/startuplessons.html">pump out features</a> and bugfixes as fast as we can. That means changing the DB schema. That means migrations. Ugh</p>
+
+	<p>We cannot honestly do otherwise. The times of startups raising 5M$, developing in-house the product and finally releasing after 18 months are gone for good; besides that, the last time I checked nobody had given us 5M$, so we don't have this opportunity! We deployed a production version after less then 3 months of part time development (it was ugly, thanks for asking!). We went to customers and investors, we got feedback, we added features. And then again, and again.</p>
+
+	<p>Our data layer is what slows us down. We try to concentrate all the changes in the data model (and therefore in the DB schema) in a unique release, so that we don't migrate so often. And we postpone big data layer refactorings because they will cost us a lot.</p>
+
+	<p>In this case, using a schema-less database (like <a href="http://www.mongodb.org/">mongodb</a>, but that's not the only option) would save us a lot of time. I'm currently prototyping with mongodb and <a href="http://code.google.com/p/redis/">redis</a>, and the flexibility they give to developers is huge. (And notice I'm not talking about performances because it wouldn't be fair to relational database which offer many more functionalities).</p>
+
+	<strong>Summary</strong>
+
+	<p>My impression so far is that there're some fundamental differences between enterprise technology stacks and startup technology stacks. The former are targeted to build applications whose scope and mission are somewhat clear (of course there are a lot of change requests also in enterprise software development, but the final goal is clear); the latter are targeted to build applications that "explore" new features, new concepts and new business models.</p>
+
+	<p>The former are targeted to write code that will last 3-5 years; the latter to write code what will most probably not survive more than a year (because the company will fail, will pivot, or will rewrite it once successful).</p>
+
+	<p>Broadly, a Startup Technology Stack (tailored to my needs and skill) is currently composed by</p>
+	<ul>
+		<li>HTML + JS in the fronted</li>
+		<li>Java Web Application (and/or Python) in the backend, using a REST architecture</li>
+		<li>Document-based, schema less database</li>
+	</ul>
+
+	<p><em>What's your take on this? Do you have a Startup Technology Stack?</em></p>
+</div>

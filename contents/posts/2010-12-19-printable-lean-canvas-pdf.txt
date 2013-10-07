@@ -1,9 +1,0 @@
-title: Printable Lean Canvas (pdf)
-author: Filippo Diotalevi
-date: 2010/12/19
-
-
-
-<p>Since I haven't been able to find one online, I've just created a pdf version of the Lean Canvas that you can print and use for your projects.</p>
-<p>Download the <a href="http://blog.diotalevi.com.s3.amazonaws.com/leancanvas.pdf">printable Lean Canvas here</a>.</p>
-<p>For any explanation please refer to <a href="http://diotalevi.com/2010/10/24/the-lean-canvas/">my previous blog post</a> or to <a href="http://www.ashmaurya.com/">Ash Maurya</a>'s blog.</p>
