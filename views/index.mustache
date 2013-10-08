@@ -1,7 +1,13 @@
 
-        <p>Hello world! This is HTML5 Boilerplate.</p>
-
+Posts:<br>
 {{#posts}}
-
 	<a href="{{link}}">{{#meta}}{{title}}{{/meta}}</a><br>
 {{/posts}}
+
+Pages:<br>
+{{#pages}}
+	<a href="{{link}}">{{#meta}}{{title}}{{/meta}}</a><br>
+{{/pages}}
+
+Configs:<br>
+{{config}}
