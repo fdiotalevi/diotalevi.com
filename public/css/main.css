@@ -1,8 +1,23 @@
+.container.site-wide {
+   max-width: 660px;
+}
 .mainbody {
-  width: 800px;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  text-align: justify;
+  max-width: 700px;
   margin: 80px auto 50px auto;
 }
 
 article {
   margin: 30px auto 50px auto;
+  line-height: 24px;
+}
+
+article .info {
+	margin-bottom: 40px;
+}
+
+article table td {
+	padding: 10px 15px 20px 15px;
 }
