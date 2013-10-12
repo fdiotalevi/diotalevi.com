@@ -26,22 +26,21 @@
         <div class="container site-wide">
           <div class="navbar-justify navbar-collapse">
             <ul class="nav navbar-nav">
-              <li class="active"><a href="/">Home</a></li>
+              <li><a href="/">Home</a></li>
               {{#pages}}
                 <li><a href="/pages/{{link}}">{{#meta}}{{title}}{{/meta}}</a></li>
               {{/pages}}              
+                <li><a href="/rss.xml">Feed</a></li>
+              </ul>
           </div><!--/.nav-collapse -->
         </div>
       </div>
 
       <div class="container">
-
         <div class="mainbody">
         {{{body}}}
         </div>
 
       </div><!-- /.container -->
-
-
     </body>
 </html>
